@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<terrain location.name="table" location.x="125" location.y="25" posZ="0" isLocked="true" mode="3" rotate="0">
+  <data name="terrain">
+    <data name="image">
+      <data type="image" name="imageIdentifier"></data>
+      <data type="image" name="wall">./assets/images/tex.jpg</data>
+      <data type="image" name="floor">4ad9fb242d6931e02f01d656a0fdc2a248a855e5950e051eca2e9f42433722d1</data>
+    </data>
+    <data name="common">
+      <data name="name">地形</data>
+      <data name="width">16</data>
+      <data name="height">0</data>
+      <data name="depth">11</data>
+    </data>
+    <data name="detail"></data>
+  </data>
+</terrain>

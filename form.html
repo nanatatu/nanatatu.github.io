@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>投票フォーム</title>
+</head>
+<body>
+    <h2>投票フォーム</h2>
+    <a href="point.html">ポイント計算</a>フォーム工事中、こちらをご利用ください。<br>
+    <form action="/form.php" method="post">
+        <div>
+            <label for="name">選択したキャラクター</label>
+                <select name="name">
+                    <option value="busujima">毒島 金成</option>
+                    <option value="hayou">葉養 美琴</option>
+                    <option value="akiyama">秋山 三成</option>
+                    <option value="sugawara">菅原 あかね</option>
+                    <option value="kurusu">イバーラ・R・クルス</option>
+                </select>
+        </div>
+
+        <div>
+            <label for="criminal">真犯人を投票してください。</label>
+            <select name="criminal">
+                <option value="busujima">毒島 金成</option>
+                <option value="hayou">葉養 美琴</option>
+                <option value="akiyama">秋山 三成</option>
+                <option value="sugawara">菅原 あかね</option>
+                <option value="kurusu">イバーラ・R・クルス</option>
+            </select>
+        </div>
+
+        <div>
+            <p>【毒島】自分にメールを送った人を特定できましたか？</p>
+            <input type="checkbox" id="b_q1" name="b_q1">
+            <a href="truth/busujima_truth.html">真相</a><br>
+
+            <p>【葉養】Anonymous Muderの正体に辿り着きましたか？</p>
+            <input type="checkbox" id="h_q1" name="h_q1">
+            <a href="truth/hayou_truth.html">真相</a><br>
+
+            <p>【葉養】クルスがマフィアの息子で、その愛人の子供だと気づきましたか？</p>
+            <input type="checkbox" id="c_q1" name="c_q1">
+            <a href="truth/hayou_truth.html">真相</a><br>
+
+            <p>【秋山】自分が今回乗船した理由がわかりましたか？</p>
+            <input type="checkbox" id="a_q1" name="a_q1">
+            <a href="truth/akiyama_truth.html">真相</a><br>
+
+            <p>【秋山】乗船中毒島が九条を脅していた事に気づきましたか？</p>
+            <input type="checkbox" id="b_q2" name="a_q1">
+            <a href="truth/akiyama_truth.html">真相</a><br>
+
+            <p>【菅原】秋山の受け取った通話が菅原による偽装である事はばれませんでしたか？</p>
+            <input type="checkbox" id="s_q1" name="s_q1">
+            <a href="truth/sugawara_truth.html">真相</a><br>
+
+            <p>【クルス】葉養と毒島の関係性を推理できましたか？</p>
+            <input type="checkbox" id="c_q2" name="c_q1">
+            <a href="truth/kurusu_truth.html">真相</a><br>
+
+            <p>【クルス】葉養と秋山の関係性を推理できましたか？</p>
+            <input type="checkbox" id="c_q3" name="c_q1">
+            <a href="truth/kurusu_truth.html">真相</a><br>
+            
+
+
+        </div>
+
+        <div>
+            <label for="name">選択したキャラクター</label>
+        </div>
+
+
+    </form>  
+</body>
+</html>
