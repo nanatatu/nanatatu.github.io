@@ -75,14 +75,24 @@
     color: #FFF;
   }
 
+  @media screen and (min-width: 481px) {
 
-  body {
-      margin-left:20%;
-      margin-right:20%;
+    body {
+      position: relative;
+      margin-left:10%;
       background-color: honeydew;
       }
-  
+   }
+  @media screen and (max-width: 480px) {
 
+    body {
+      position:relative;
+      margin-left:0%;
+      margin-right:0%;
+      background-color: honeydew;
+      }
+
+   }
 h2 {
     position: relative;
     padding: 0.25em 0;
@@ -196,4 +206,4 @@ h2:after {
 
 #mainArea {
   text-align: center;
-}
+} 
