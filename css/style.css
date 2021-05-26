@@ -76,11 +76,13 @@
   }
 
 
-body {
-    margin-left:250px;
-    margin-right:250px;
-    background-color: honeydew;
-    }
+  body {
+      margin-left:20%;
+      margin-right:20%;
+      background-color: honeydew;
+      }
+  
+
 h2 {
     position: relative;
     padding: 0.25em 0;
