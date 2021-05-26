@@ -208,3 +208,49 @@ h2:after {
 #mainArea {
   text-align: center;
 } 
+
+/* 吹き出し */
+.arrow_box{
+  position:relative;
+  width:350px;
+  height:100px;
+  background:#FFE7B0;
+  padding:10px;
+  text-align:center;
+  border:3px solid #FFBB21;
+  color:black;
+  font-size:15px;
+  font-weight:bold;
+  border-radius:10px;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+}
+.arrow_box:after,.arrow_box:before{
+  border: solid transparent;
+  content:'';
+  height:0;
+  width:0;
+  pointer-events:none;
+  position:absolute;
+  bottom:100%;
+  left:12%;
+}
+.arrow_box:after{
+  border-color: rgba(255, 231, 176, 0);
+  border-top-width:10px;
+  border-bottom-width:10px;
+  border-left-width:8px;
+  border-right-width:8px;
+  margin-left: -8px;
+  border-bottom-color:#FFE7B0;
+}
+.arrow_box:before{
+  border-color: rgba(255, 187, 33, 0);
+  border-top-width:13px;
+  border-bottom-width:13px;
+  border-left-width:11px;
+  border-right-width:11px;
+  margin-left: -11px;
+  margin-bottom: 3px;
+  border-bottom-color:#FFBB21;
+}
